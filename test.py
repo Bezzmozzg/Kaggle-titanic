@@ -1,5 +1,5 @@
 import pandas as pd
-from flask import Flask, jsonify
+from flask import Flask
 
 df_t = pd.read_csv('titanic.csv')
 
